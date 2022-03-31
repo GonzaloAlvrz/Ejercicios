@@ -1,0 +1,348 @@
+body{
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.caja-principal{
+/*   background-color: blue;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    height: 440px;
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+/* CAJA texto  */
+.caja-texto{
+/*  background-color: rgb(223, 73, 73);  */
+    height: 330px;
+    width: 40%;
+    margin-right: 7%;
+    position: relative;
+    top: -1%;
+
+    
+}
+
+#img{
+/*  background-color: aqua;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5%;
+    left: -25%;
+}
+
+#face{
+    position: relative;
+    left: -10%;
+}
+
+#text{
+/*  background-color: rgb(89, 104, 104);   */
+    height: 190px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -5%;
+    font-size: x-large;
+  
+
+}
+
+/* CAJA registrate  */
+.caja-registrate{
+     background-color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    max-height: 335px;
+    height: 330px;
+    width: 30%;
+    margin-left: 5%;
+    border-radius: 7px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: -1%;
+    left: -5%;
+
+}
+
+#mail-password{
+/*  background-color: aqua;  */
+  
+    flex-direction: column;
+    height: 290px;
+    width: 90%;
+    position: relative;
+    top: 5%;
+    
+    
+}
+
+#mail{
+
+    position: relative;
+    top: 10px;
+}
+
+#password{
+    position: relative;
+    top: 30px;
+  
+}
+
+#entrar{
+   
+    position: relative;
+    top: 50px;
+}
+
+#pregunta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:29%;
+    text-decoration: none;
+    color: #1877f2;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pr{
+    text-decoration: none;
+    color: #1877f2;
+}
+
+
+
+#caja-boton-ver{
+/*     background-color: chartreuse;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 32%;
+    border-top: 1px solid rgb(185, 185, 185);
+ 
+}
+
+
+
+/* Caja crear */  
+
+.caja-crear{
+/*  background-color: darkgray;   */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    height: 50px;
+    width: 30%;
+    position: relative;
+    top: -7%;
+    left: 21%;
+
+
+}
+
+#cr{
+    font-size: small;
+    text-align: center;
+ 
+}
+
+@media screen and (min-width: 710px) and (max-width: 888px){
+      body{
+   /*        background-color: orange; */
+      }
+
+      .caja-principal{
+        /*  background-color: blue;  */   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            height: 440px;
+            width: 90%;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 8%;
+        }
+
+        #pregunta{
+            font-size: small;
+            text-align: center;
+        }
+
+        #boton-ver{
+            font-size: small;
+        
+        }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 710px){
+    body{
+    /*     background-color: rgb(230, 60, 30); */
+    }
+    .caja-principal{
+      /*  background-color: blue;  */    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            flex-wrap: wrap; 
+            height: 600px;
+            width: 90%;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2%;
+        }
+        .caja-texto{
+        /*     background-color: rgb(223, 73, 73);  */
+               /* height: 30%; */
+              height: 150px;
+               width: 46%;
+               margin-right: auto;
+               margin-left: auto;
+               position: relative;
+               top: -10%;
+           }
+        #img{
+               position: relative;
+               left: 5%;
+               top: 30px;
+             }
+        #text{
+       /*     background-color: rgb(89, 104, 104);   */
+              height: 110px;
+              width: 100%;
+              margin-left: auto;
+              margin-right: auto;
+              position: relative;
+              top: -5%;
+              font-size: medium;
+              text-align: left;
+          }    
+        .caja-registrate{
+      /*   background-color: rgb(255, 255, 255);  */
+        display: flex;
+        justify-content: center;
+        max-height: 335px;
+        min-width: 40%;
+        height: 330px;
+        width: 50%;
+        position: relative;
+        top: 1%;
+        left: -2%;
+       
+       }        
+       .caja-crear{
+      /*   background-color: darkgray;   */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+           height: 50px;
+           width: 30%;
+           position: relative;
+           top: 5%;
+           left: 0%;
+       }  
+}   
+
+@media screen and (min-width: 320px) and (max-width: 350px){
+    body{
+      
+    }
+    .caja-principal{
+        /*  background-color: blue;  */    
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction:column;
+              flex-wrap: wrap; 
+              height: 600px;
+              width: 90%;
+              max-width: 1000px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 2%;
+          }
+          .caja-texto{
+          /*     background-color: rgb(223, 73, 73);  */
+                 /* height: 30%; */
+                height: 150px;
+                 width: 46%;
+                 margin-right: auto;
+                 margin-left: auto;
+                 position: relative;
+                 top: -10%;
+             }
+          #img{
+              
+                 position: relative;
+                 width: 110%;
+                 left: 5%;
+                 top: 30px;
+               }
+
+         #img img{
+             height:80%;
+         }
+          #text{
+         /*     background-color: rgb(89, 104, 104);   */
+                height: 110px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: -5%;
+                font-size: medium;
+                text-align: left;
+                color: #eee;
+            }    
+          .caja-registrate{
+        /*   background-color: rgb(255, 255, 255);  */
+          display: flex;
+          justify-content: center;
+          max-height: 300px;
+          min-width: 40%;
+          height: 295px;
+          width: 90%;
+          position: relative;
+          top: -15%;
+          left: -2%;
+         
+         }        
+         .caja-crear{
+        /*   background-color: darkgray;   */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+             height: 50px;
+             width: 60%;
+             position: relative;
+             top: -10%;
+             left: 0%;
+         }  
+
+}
