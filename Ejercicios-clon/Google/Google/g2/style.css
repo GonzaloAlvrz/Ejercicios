@@ -159,7 +159,7 @@ body{
     flex-direction: row;
     height: 40px;
     width: 100%;
-    
+   
 }
 
 #arg{
@@ -188,6 +188,7 @@ body{
 footer{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 7%;
 }
 
 #sg-publi-neg{
